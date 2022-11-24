@@ -1,0 +1,61 @@
+.
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+}
+
+.page, .limit {
+    padding: 10px 15px;
+    border: 2px solid teal;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 2px solid teal;
+    background-color: transparent;
+    transition: 0.5s;
+    color: teal;
+}
+
+.limit, .btn {
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: teal;
+    cursor: pointer;
+    color: #fff;
+}
+
+.outputBlock {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    margin-top: 30px;
+}
+
+.danger {
+    font-weight: 600;
+    color: #f00;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.author {
+    color: teal;
+    text-align: center;
+}
