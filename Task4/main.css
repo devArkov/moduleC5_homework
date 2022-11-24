@@ -1,0 +1,38 @@
+.container {
+    padding: 15px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid teal;
+    background-color: #fff;
+    color: teal;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+}
+
+.inputWidth, .inputHeight {
+    display: block;
+    padding: 7px 15px;
+    border: 2px solid teal;
+    outline: none;
+}
+
+.inputWidth {
+    margin-bottom: 15px;
+}
+
+.outputBlock {
+    margin-top: 30px;
+}
+
+.danger {
+    font-weight: 600;
+    color: #f00;
+}
