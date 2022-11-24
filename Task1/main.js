@@ -95,7 +95,7 @@ const student2Result = {
 }
 // console.log(student2Result);
 
-// ИМтоговый список
+// Final list
 const list = {
     'list': [
         student1Result,
